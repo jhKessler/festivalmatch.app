@@ -1,0 +1,19 @@
+.contact-text-header {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.contact-text-line {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0.4rem;
+}
+
+.contact-start-buffer {
+    height: 5vh;
+}

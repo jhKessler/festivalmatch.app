@@ -1,0 +1,36 @@
+.main-content {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.privacy-start-buffer {
+    height: 5vh;
+}
+
+.privacy-text-header {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.privacy-text-line {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0.4rem;
+}
+
+.purple-href-privacy {
+    color: #9E38CE;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.purple-href-privacy:hover {
+    color: var(--festivalmatch-purple);
+}

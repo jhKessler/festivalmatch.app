@@ -1,0 +1,28 @@
+.mainnav {
+    background-color: var(--navigation-color);
+}
+
+#basic-navbar-nav {
+    justify-content: end;
+    gap: 2.5rem;
+    padding-right: 5vw;
+}
+
+.navbar-no-wrap {
+    white-space: nowrap;
+}
+
+.mainnav-link {
+    color: #ffffff!important;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.navbar-collapse {
+    padding-left: 5vw!important;
+}
+
+.mainnav-link:hover {
+    color: var(--festivalmatch-purple)!important;
+    text-decoration: none;
+}

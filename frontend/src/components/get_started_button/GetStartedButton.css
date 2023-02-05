@@ -1,0 +1,48 @@
+.get-started-button {
+    background-color: var(--festivalmatch-purple);
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .get-started-button {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 10rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .get-started-button-logo {
+        height: 1.5rem;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .get-started-button {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 10rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-size: 1.5rem;
+
+    }
+        .get-started-button-logo {
+        height: 2.5rem;
+        padding-right: 1rem;
+    }
+}
+
+.get-started-button:hover {
+    background-color: #5f0b87;
+    color: white;
+}

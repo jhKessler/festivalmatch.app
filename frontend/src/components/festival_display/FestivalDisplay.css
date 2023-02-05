@@ -1,0 +1,58 @@
+
+
+.festival-display {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+
+.user-greeting-text {
+    margin-top: 2vh;
+    font-size: 3vh;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.festival-display-buffer {
+    height: 2vh;
+}
+
+.festival-display-user-greeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.festival-carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 40vh;
+}
+
+.error-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    font-size: 3vh;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.error-buffer {
+    height: 2vh;
+}
+

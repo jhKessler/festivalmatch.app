@@ -1,0 +1,48 @@
+.festivalmatchname {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 2rem;
+  }
+
+.festivalmatchspacing {
+    font-size: 1rem;
+}
+
+.festivalmatchdomain {
+    color: #7D18AC;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.navbar-brand {
+    text-decoration: none;
+}
+
+.logo-text {
+  padding-left: 5vw;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 400px) and (max-width: 900px) {
+  .festivalmatchname {
+    font-size: 1rem;
+  }
+  .festivalmatchspacing {
+    font-size: 0.5rem;
+  }
+  .festivalmatchdomain {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .festivalmatchname {
+    font-size: 1.2rem;
+  }
+  .festivalmatchspacing {
+    font-size: 0.7rem;
+  }
+  .festivalmatchdomain {
+    font-size: 0.7rem;
+  }
+}

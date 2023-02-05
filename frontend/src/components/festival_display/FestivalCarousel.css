@@ -1,0 +1,19 @@
+.carousel-fest {
+    width: 40vh;
+    height: 70vh;
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 3vh;
+}
+
+.download-button {
+    margin-top: 2vh;
+    background-color: #5f0b87;
+    color: #ffffff;
+    border-radius: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border: none;
+    font-weight: bold;
+    font-size: 2vh;
+}

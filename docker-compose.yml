@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  festival_db:
+    image: postgres:14.0
+    container_name: festival_db
+    volumes:
+      - festival_db:/var/lib/postgresql/data
+    ports:
+      - '0.0.0.0:5432:5432'
+    environment:
+      - 'TZ=Europe/Berlin'
+      - 'PGTZ=Europe/Berlin'
+      - 'POSTGRES_USER=admin'
+      - 'POSTGRES_PASSWORD=PLACEHOLDER'
+      - 'POSTGRES_DB=festival_db'
+      - 'POSTGRES_ENCODING=UNICODE'
+      - 'POSTGRES_COLLATE=C'
+      - 'POSTGRES_COLLATE_TYPE=C'
+  festival_backend:
+    depends_on:
+      - festival_db
+    build: ./backend
+    container_name: festival_backend
+    ports:
+      - '0.0.0.0:5000:5000'
+    environment:
+      - 'WEBSITE_FRONTEND_URL=https://festivalmatch.app'
+      - 'WEBSITE_BACKEND_URL=https://festivalmatch.app'
+      - 'SPOTIFY_CLIENT_ID=PLACEHOLDER'
+      - 'SPOTIFY_CLIENT_SECRET=PLACEHOLDER'
+      - 'ipinfo_access_token=PLACEHOLDER'
+      - 'provider=postgres'
+      - 'user=admin'
+      - 'password=PLACEHOLDER'
+      - 'host=festival_db'
+      - 'port=5432'
+      - 'database=festival_db'
+  festival_frontend:
+    depends_on:
+      - festival_backend
+    build: ./frontend
+    container_name: festival_frontend
+    ports:
+      - '0.0.0.0:3000:3000'
+  reverse_proxy:
+    depends_on:
+      - festival_backend
+      - festival_frontend
+    container_name: reverse_proxy
+    build: ./reverse_proxy
+    ports:
+      - '0.0.0.0:8080:8080'
+volumes:
+  festival_db:

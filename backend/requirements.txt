@@ -1,0 +1,13 @@
+requests==2.28.1
+fastapi==0.88.0
+uvicorn==0.20.0
+peewee==3.15.4
+numpy==1.23.5
+pandas==1.5.2
+bs4==0.0.1
+psycopg2-binary==2.9.5
+flask-cors==3.0.10
+tqdm==4.64.1
+SQLAlchemy==1.4.44
+ipinfo==4.4.2
+geopy==2.3.0

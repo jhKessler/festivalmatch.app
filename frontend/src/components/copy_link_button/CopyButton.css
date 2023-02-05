@@ -1,0 +1,26 @@
+.share-icon-wrapper {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+}
+
+.copy-button-icon {
+    background-color: #181818;
+}
+
+.copy-button-icon {
+    fill: white;
+    transform: scale(0.5)
+}
+
+.copy-button-icon:hover {
+    fill: #5f0b87;
+}
+
+.share-icon {
+    background-color: #181818;
+    border-radius: 50%;
+}

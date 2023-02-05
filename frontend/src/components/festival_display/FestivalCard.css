@@ -1,0 +1,128 @@
+.festival-card {
+    width: 40vh;
+    height: 70vh;
+}
+
+.festival-card-content {
+    margin-left: 3vh;
+    margin-right: 3vh;
+    height: 55vh;
+}
+
+.festival-link {
+    height: 15vh;
+}
+
+.festival-card-title {
+    margin-top: 1vh;
+    font-size: 5vh;
+    font-weight: bold;
+    color: var(--festivalmatch-purple);
+    margin-bottom: 3vh;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.festival-card-title:hover {
+    color: #5f0b87;
+}
+
+.festival-card-date {
+    font-size: 2.5vh;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0vh;
+}
+
+.festival-card-location {
+    font-size: 2vh;
+    color: white;
+}
+
+.festival-headliner {
+    font-size: 5vh;
+    color: white;
+    font-weight: bold;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.festival-second-row {
+    font-size: 2.5vh;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.festival-third-row {
+    font-size: 1.5vh;
+    color: white;
+    font-weight: 200;
+    overflow: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.powered-by-spotify-text {
+    font-size: 2.5vh;
+    color: white;
+    font-weight: bold;
+    margin-top: 2vh;
+    margin-bottom: 1.5vh;
+}
+
+.powered-by-spotify-logo {
+    margin-bottom: 1vh;
+    width: 10vh!important;
+    height: auto!important;
+}
+
+.powered-by-row {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.powered-by-festivalmatch-logo-name {
+    font-size: 2.2vh;
+    color: white;
+    font-weight: bold;
+}
+.powered-by-festivalmatch-logo-domain {
+    font-size: 1.1vh;
+    color: #7D18AC;
+    margin-top: auto;
+    padding-bottom: 0.2vh;
+}
+
+.powered-by-spotify-logo-wrapper {
+    margin-top: 1vh;
+    width: 50%;
+}
+
+.powered-by-festivalmatch-logo {
+    display: flex;
+}
+
+
+.powered-by-festivalmatch-logo-wrapper {
+    margin-top: 0.7vh;
+    width: 50%;
+    white-space: nowrap;
+}
+
+.lineup-artist {
+    white-space: nowrap;
+    white-space: pre;
+}

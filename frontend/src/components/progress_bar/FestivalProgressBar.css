@@ -1,0 +1,55 @@
+.progressBarWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.progress {
+    width: 60vw;
+    --bs-progress-bar-bg: var(--festivalmatch-purple)!important;
+    --bs-progress-bg: black!important;
+    --bs-progress-border-radius: 1rem!important;
+    height: 1.5rem;
+}
+
+.almost-there {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.progress-text {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+
+.status-text {
+    color: white;
+    margin-top: 0.3rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .progressbar-buffer {
+        height: 6rem
+    }
+    .status-text {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .progressbar-buffer {
+        height: 10rem
+    }
+    .status-text {
+        font-size: 1.5rem;
+    }
+}
+

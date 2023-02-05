@@ -1,0 +1,57 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-start-buffer {
+    height: 10vh;
+}
+
+.home-text-small {
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+.home-text-big {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 600px) {
+    .home-text-small {
+        font-size: 2rem;
+    }
+
+    .home-text-big {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-text-small {
+        font-size: 1rem;
+    }
+
+    .home-text-big {
+        font-size: 1.7rem;
+    }
+
+    .main-content {
+        margin: 0 1rem;
+    }
+}
+
+.purple-href {
+    text-decoration: none;
+    color: #9E38CE;
+}
+
+.purple-href:hover {
+    color: var(--festivalmatch-purple);
+}

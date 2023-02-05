@@ -1,0 +1,40 @@
+.main-content {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.how-start-buffer {
+    height: 5vh;
+}
+
+.how-text-header {
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 0;
+    color: #ffffff;
+    margin-bottom: 4rem;
+}
+
+.how-content-line {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.how-we-do-it-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.how-text-medium {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.how-text {
+    text-align: center;
+}
