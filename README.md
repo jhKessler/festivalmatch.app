@@ -25,7 +25,7 @@ For this project, the following tech stack was used:
 ### Backend
 - Python 3.10
 - FastAPI
-- NumPy/Pandas
+- Pandas/NumPy
 - PeweeORM
 - PostgresSQL
 - Docker
