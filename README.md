@@ -1,6 +1,6 @@
 # festivalmatch.app
 
-## A React/Python Application giving you personalized festival suggestions
+### A React/Python Application giving you personalized festival suggestions
 
 Finding good festivals is hard. but with festivalmatch it's easier than ever! Simply sign in using your Spotify account and it'll give you the best festivals in your area, according to your taste in music.
 
