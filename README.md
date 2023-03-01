@@ -30,6 +30,7 @@ For this project, the following tech stack was used:
 - PostgresSQL
 - Docker
 - nginx
+- Cloudflare
 
 ### Festival Data Cleaning
 - Python 3.10
