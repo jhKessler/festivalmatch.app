@@ -31,5 +31,11 @@ For this project, the following tech stack was used:
 - Docker
 - nginx
 
+### Festival Data Cleaning
+- Python 3.10
+- Beautifulsoup4
+- Spotify Developer API
+- Pandas/NumPy
+
 ## Questions?
 Feel free to reach out! johnnyhagenkessler@gmail.com
